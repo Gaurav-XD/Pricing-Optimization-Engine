@@ -1,0 +1,3 @@
+# Raw pricing data goes here.
+# pricing_data.csv is generated automatically by run_pipeline.py
+# or by the API on first startup.

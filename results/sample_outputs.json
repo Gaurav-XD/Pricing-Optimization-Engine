@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-04-29T09:25:05.416656",
+  "pipeline_summary": {
+    "total_products": 10,
+    "avg_revenue_uplift": 20.11,
+    "max_revenue_uplift": 49.46
+  },
+  "optimization_results": [
+    {
+      "product_id": "P001",
+      "current_price": 145.83,
+      "optimal_price": 102.08,
+      "current_revenue": 77673.88,
+      "optimal_revenue": 106362.88,
+      "expected_revenue_increase_pct": 36.94,
+      "elasticity": -1.8813
+    },
+    {
+      "product_id": "P002",
+      "current_price": 251.83,
+      "optimal_price": 176.28,
+      "current_revenue": 74035.9,
+      "optimal_revenue": 110650.9,
+      "expected_revenue_increase_pct": 49.46,
+      "elasticity": -2.1266
+    },
+    {
+      "product_id": "P003",
+      "current_price": 59.66,
+      "optimal_price": 41.76,
+      "current_revenue": 47693.59,
+      "optimal_revenue": 50874.16,
+      "expected_revenue_increase_pct": 6.67,
+      "elasticity": -1.181
+    },
+    {
+      "product_id": "P004",
+      "current_price": 92.07,
+      "optimal_price": 64.45,
+      "current_revenue": 53075.42,
+      "optimal_revenue": 63795.76,
+      "expected_revenue_increase_pct": 20.2,
+      "elasticity": -1.5158
+    },
+    {
+      "product_id": "P005",
+      "current_price": 19.73,
+      "optimal_price": 25.65,
+      "current_revenue": 39388.16,
+      "optimal_revenue": 42815.37,
+      "expected_revenue_increase_pct": 8.7,
+      "elasticity": -0.682
+    },
+    {
+      "product_id": "P006",
+      "current_price": 35.82,
+      "optimal_price": 46.57,
+      "current_revenue": 42272.82,
+      "optimal_revenue": 42949.17,
+      "expected_revenue_increase_pct": 1.6,
+      "elasticity": -0.9395
+    },
+    {
+      "product_id": "P007",
+      "current_price": 121.56,
+      "optimal_price": 85.09,
+      "current_revenue": 47209.81,
+      "optimal_revenue": 56382.25,
+      "expected_revenue_increase_pct": 19.43,
+      "elasticity": -1.4978
+    },
+    {
+      "product_id": "P008",
+      "current_price": 77.99,
+      "optimal_price": 54.59,
+      "current_revenue": 44083.45,
+      "optimal_revenue": 48826.43,
+      "expected_revenue_increase_pct": 10.76,
+      "elasticity": -1.2865
+    },
+    {
+      "product_id": "P009",
+      "current_price": 199.12,
+      "optimal_price": 139.38,
+      "current_revenue": 49195.49,
+      "optimal_revenue": 71002.38,
+      "expected_revenue_increase_pct": 44.33,
+      "elasticity": -2.0287
+    },
+    {
+      "product_id": "P010",
+      "current_price": 45.48,
+      "optimal_price": 31.84,
+      "current_revenue": 40261.38,
+      "optimal_revenue": 41469.62,
+      "expected_revenue_increase_pct": 3.0,
+      "elasticity": -1.0829
+    }
+  ],
+  "elasticity_summary": [
+    {
+      "product_id": "P001",
+      "category": "Electronics",
+      "elasticity": -1.8813,
+      "r_squared": 0.7969,
+      "avg_price": 145.83,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P002",
+      "category": "Electronics",
+      "elasticity": -2.1266,
+      "r_squared": 0.849,
+      "avg_price": 251.83,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P003",
+      "category": "Clothing",
+      "elasticity": -1.181,
+      "r_squared": 0.5655,
+      "avg_price": 59.66,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P004",
+      "category": "Clothing",
+      "elasticity": -1.5158,
+      "r_squared": 0.7267,
+      "avg_price": 92.07,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P005",
+      "category": "Food",
+      "elasticity": -0.682,
+      "r_squared": 0.3766,
+      "avg_price": 19.73,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P006",
+      "category": "Food",
+      "elasticity": -0.9395,
+      "r_squared": 0.5075,
+      "avg_price": 35.82,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P007",
+      "category": "Sports",
+      "elasticity": -1.4978,
+      "r_squared": 0.7057,
+      "avg_price": 121.56,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P008",
+      "category": "Sports",
+      "elasticity": -1.2865,
+      "r_squared": 0.6875,
+      "avg_price": 77.99,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P009",
+      "category": "Home",
+      "elasticity": -2.0287,
+      "r_squared": 0.8216,
+      "avg_price": 199.12,
+      "n_observations": 157
+    },
+    {
+      "product_id": "P010",
+      "category": "Home",
+      "elasticity": -1.0829,
+      "r_squared": 0.5832,
+      "avg_price": 45.48,
+      "n_observations": 157
+    }
+  ]
+}
